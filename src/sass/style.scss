@@ -42,7 +42,8 @@ canvas {
         object-fit: cover;
         cursor: pointer;
         &_active{
-            box-shadow: 3px 3px 20px #c70101;
+            filter:         drop-shadow(5px 5px 11px #c70101);
+            -webkit-filter: drop-shadow(5px 5px 11px #c70101);
         }
         img {
             width: 100%;
