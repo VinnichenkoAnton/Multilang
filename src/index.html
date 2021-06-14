@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multilang</title>
+    <meta name="title" content="Мультиязычный сайт">
+    <meta name="description" content="Сайт, на котором можно изменять язык по желанию">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <canvas id="c" ></canvas>
+    <div class="lang">
+        <div class="container">
+            <div class="lang__wrapper">
+                <figure class="lang__item" id="ru">
+                    <img src="img/lang/ru_droid.png" alt="ru">
+                    <figcaption class="lang__subscr">Ru</figcaption>
+                </figure>
+                <figure class="lang__item" id="en">
+                    <img src="img/lang/eng_droid.png" alt="en">
+                    <figcaption class="lang__subscr">En</figcaption>
+                </figure>
+                <figure class="lang__item" id="uk">
+                    <img src="img/lang/uk_droid.png" alt="uk">
+                    <figcaption class="lang__subscr">Uk</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <section class="titles">
+            <div class="text__wrapper titlecontent" >
+                <div class="text__about" key="about"></div> 
+                <div class="text__descr"   key="descr"></div> 
+                <div class="text__photo " key="photo"></div>
+            </div>
+    </section>
+        
+
+    <script src="js/script.js"></script>
+</body>
+</html>
